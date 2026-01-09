@@ -1,0 +1,66 @@
+# Visual Studio / .NET / C# .gitignore
+
+# User-specific files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Build output
+[Bb]in/
+[Oo]bj/
+out/
+artifacts/
+publish/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+# Rider / JetBrains
+.idea/
+
+# ReSharper
+_ReSharper*/
+*_ReSharper.*
+*.DotSettings
+
+# Logs, databases, misc
+*.log
+*.sql
+*.sqlite
+*.mdf
+*.ldf
+*.db
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Test / coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# VS and tooling
+*.vsix
+*.appx
+*.msi
+*.nupkg
+*.zip
+
+# Secrets and local settings (don't commit secrets)
+secrets.json
+appsettings.Development.json
+local.settings.json
+
+# Temporary files
+~$*
+*.tmp
