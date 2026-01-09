@@ -1,0 +1,3 @@
+[submodule "Libs/Rutils"]
+	path = Libs/Rutils
+	url = https://github.com/ru-the-dev/Rutils.git

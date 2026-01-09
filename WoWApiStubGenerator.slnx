@@ -1,3 +1,7 @@
 <Solution>
+  <Folder Name="/Libs/" />
+  <Folder Name="/Libs/Rutils/">
+    <Project Path="Libs/Rutils/Rutils/Rutils.csproj" />
+  </Folder>
   <Project Path="WoWApiStubGenerator/WoWApiStubGenerator.csproj" />
 </Solution>
